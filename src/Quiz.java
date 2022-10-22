@@ -164,9 +164,11 @@ public class Quiz {
 
                 System.out.println("==================================");
                 System.out.println("Question " + count);
+                System.out.println("Difficulty: " + question.getDiffifculty());
                 System.out.println(question.getQuestion());
                 System.out.println("= = = = = = = = = = = = = = = = = ");
 
+                // Display choices
                 int index = 0;
                 for (String choice : question.getChoices()) {
                     index += 1;
